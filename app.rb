@@ -23,7 +23,7 @@ get '/command' do
           @res = $cache.get('welcome_msg') || 'N/A'
         when 'delete'
           @res = $cache.delete('welcome_msg').nil? ? 'N/A' : 'True'
-        when 'info'
+        when 'stats'
           $cache.stats().each { |k, v| 
             @res += "#{k}: #{v}<br />" 
           }
