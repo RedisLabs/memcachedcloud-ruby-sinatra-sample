@@ -1,7 +1,7 @@
 # Memcached Cloud Ruby Sinatra Sample
 
 A Ruby Sinatra sample app that demonstrates [Memcached](http://memcached.org/) deployment to Heroku.<br />
-SET and GET a key, and get your bucket's STATS.
+SET, GET and DELETE a key, and get your bucket's STATS.
 
 The app is currently running at: [memcachedcloud-ruby-sample.herokuapp.com](http://memcachedcloud-ruby-sample.herokuapp.com), and uses [Memcached Cloud](https://addons.heroku.com/memcachedcloud) as a backend.
 

@@ -1,7 +1,7 @@
 {
   "name": "Memcached Cloud Ruby Sample",
   "description": "Ruby Sinatra app demonstarting Memcached Cloud deployment to Heroku",
-  "repository": "https://github.com/RedisLabs/memcached-ruby-sinatra-sample",
+  "repository": "https://github.com/RedisLabs/memcachedcloud-ruby-sinatra-sample",
   "logo": "https://s3.amazonaws.com/assets.heroku.com/addons.heroku.com/icons/1321/original.png",
   "keywords": ["ruby", "sinatra", "memcached", "memcached cloud" ],
   "addons": [ "memcachedcloud:25" ]
